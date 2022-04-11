@@ -1,7 +1,7 @@
 n = int(input()) 
 
 def factorial(n):   
-    if n == 0 :
+    if n <= 1:
         return 1
     else:
         return n * factorial(n-1)
@@ -10,6 +10,7 @@ print(factorial(n))
 
 
 '''
+
 0! = 1
 1! = 1
 2! = 2 * 1
@@ -23,11 +24,12 @@ if n == 1:
 
 0 ≤ N ≤ 12
 n이 0일 수도 있음 -> 0! = 1,
-따라서 if n == 0:
-         return 1로 해줘야 함.
+따라서 if n <= 1:
+         return 1 로 작성
+         
+         혹은
 
-        if n <= 1:
-         return 1 이것도 가능.
-    
-
+        if n == 0 :
+         return 1 로 작성
+         
 '''
