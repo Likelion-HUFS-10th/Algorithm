@@ -26,7 +26,7 @@ r'''
 '''input().split()) : 한 번에 입력 받은 여러 개의 값을 앞에 선언한 변수의 수 만큼 split해 각 변수에 assign.
 * map(function, iterable) : 함수의 동작은 두 번째 인자로 들어온 반복 가능한 자료형을 첫 번째 인자로 들어온 함수에 하나씩 집어넣어서 함수를 수행하는 함수.
 * 즉, map(적용시킬 함수, 적용할 값들) 이런 식.
-* 재밌는 건 int가 단순히 datatype을 알려주는 키워드인 줄 알았는데 int()였다는 점.
+* 재밌는 건 여기서의 int가 단순히 datatype을 알려주는 키워드인 줄 알았는데 int()였다는 점.
 '''
 A, B = map(int, input().split())
 print(A + B)
