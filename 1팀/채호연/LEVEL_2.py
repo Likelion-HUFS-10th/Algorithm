@@ -43,4 +43,16 @@ else:
     print('3')
 
 #2884 : 45분 이른 알람 설정하기
+'''
+해결의 포인트는 시간은 00시, 분 < 45 인 경우 출력을 H 대신 23이 되도록 처리하는 것이었다.
+'''
 H, M = map(int, input().split())
+if M >= 45:
+    print(H, M-45)
+else:
+    if H == 0:
+        print(23, M+15)
+    else:
+        print(H-1, M+15)
+
+#
