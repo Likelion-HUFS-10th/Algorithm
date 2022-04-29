@@ -42,4 +42,5 @@ elif x < 0 and y > 0:
 else:
     print('3')
 
-#2884 : 
+#2884 : 45분 이른 알람 설정하기
+H, M = map(int, input().split())
