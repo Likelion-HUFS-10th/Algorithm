@@ -55,4 +55,42 @@ else:
     else:
         print(H-1, M+15)
 
-#
+#2525번 : 오븐 시계 / 요리 완료 시간이 24시간을 넘었을 때의 조건을 구현하는 부분이 까다로웠다.
+H, M = map(int, input().split())
+cook_total = int(input())
+cook_hour = cook_total // 60
+cook_min = cook_total % 60
+if M + cook_min > 60:
+    if H + cook_hour + 1 >= 24:
+        print(H + cook_hour -23, M + cook_min - 60)
+    else:
+        print(H + cook_hour + 1, M + cook_min - 60)
+elif M + cook_min == 60:
+    if H + cook_hour + 1 >= 24:
+        print(H + cook_hour - 23, 0)
+    else:
+        print(H + cook_hour + 1, 0)
+else:
+    if H + cook_hour >= 24:
+        print(H + cook_hour - 24, M + cook_min)
+    else:
+        print(H + cook_hour, M + cook_min)
+
+#2480번 : 주사위 세 개.
+d1, d2, d3 = map(int, input().split())
+if d1 == d2 == d3:
+    print(10000 + d1 * 1000)
+else:
+    if d1 == d2:
+        print(1000 + d1 * 100)
+    elif d2 == d3:
+        print(1000 + d2 * 100)
+    elif d3 == d1:
+        print(1000 + d3 * 100)
+    else:
+        d_list = [d1, d2, d3]
+        print(int(max(d_list)) * 100)
+
+'''
+LEVEL_2 CLEAR
+'''
