@@ -12,5 +12,4 @@ for _ in range(n):
             break
         else:
             i += 1
-            print(f"{target}/{i}")
 print(n - cnt)
