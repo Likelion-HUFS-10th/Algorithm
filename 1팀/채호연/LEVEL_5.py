@@ -1,7 +1,4 @@
 #15596 : 정수 N개의 합을 출력하는 함수
-from tkinter import N
-
-
 def solve(a):
     return sum(a)
 
@@ -34,4 +31,4 @@ for q in range(1, 10001):
     if q not in Notselfnum:
         print(q)
 
-#1065 : 한수 출력 함수
+#1065 : 한수 출력 함수 : 미결
