@@ -1,0 +1,54 @@
+1.	다음 선지 중 틀린 것을 모두 골라 올바르게 고치시오.
+
+ㄱ.	클래스 bool, int, float, list, tuple, str, det 중 불변 객체는 3개이다.
+
+    -> 불변 객체는 bool, int, float, tuple, str 5개이다.
+
+ㄴ.	파이썬은 원시 타입 형태 자료형도 지원한다.
+
+    -> 파이썬은 객체의 다양한 기능과 편의성을 위해 원시 타입 자료형을 지원하지 않는다.
+
+ㄷ.	파이썬의 계산 모듈인 Numpy는 원시 타입 형태 자료형도 지원하는 자바로 만든 모듈이다.
+
+    -> 파이썬의 계산 모듈인 Numpy는 C로 만든 모듈이다.
+
+ㄹ.	>>> a = [1,2,3]
+>>> a = list(a)
+>>> a is list(a)
+True
+
+    -> False
+
+ㅁ.	입력값 n에 대해서 4n+1번만큼 계산하는 함수가 있다면 시간 복잡도는 O(n^2)이다.
+
+    -> 최고차항이 4n이니 시간 복잡도는 O(n)이다.
+
+
+
+2.	다음 조건을 만족하는 소스코드를 작성하시오.
+
+num = int(input("아샷추를 일주일 중 몇 번 드시겠습니까? : "))
+list = []
+hap = 0
+
+while num<0 or num > 8  :
+    print("그렇게는 못먹어요")
+    num = int(input("아샷추를 일주일 중 몇 번 드시겠습니까? : "))
+        
+while (True) :
+    
+    num = int(input("먹을 아샷추의 개수를 입력하세요 : "))
+    list.append(num)
+    hap = hap + num
+    print (hap)
+
+    if hap > 10  :
+        print('우웩 배가 아파요')
+        list.append("배부르다")
+        print(list)
+
+        break
+
+    else :
+        print("내일 또 먹어야지")
+       
