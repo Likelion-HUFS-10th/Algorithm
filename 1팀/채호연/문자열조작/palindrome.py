@@ -59,3 +59,15 @@ def isPalindrome(s: str) -> bool:
 isPalindrome('anam')
 
 #3. 슬라이싱 사용
+import re
+def isPalindrome(s:str) -> bool:
+    s = s.lower()
+    s = re.sub('[^a-z0-9]', '', s)
+    '''
+    re.() => import re 해야 사용 가능
+
+    * 정규 표현식 : 텍스트에서 특정 문자열을 찾기 쉽도록 고안된 문자열 탐색 방법 
+
+
+    '''
+    return s == s[::-1]
