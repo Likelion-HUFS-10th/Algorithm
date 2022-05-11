@@ -68,6 +68,8 @@ def isPalindrome(s:str) -> bool:
 
     * 정규 표현식 : 텍스트에서 특정 문자열을 찾기 쉽도록 고안된 문자열 탐색 방법 
 
+    1. 정규표현식 기호 정리
+    https://hamait.tistory.com/m/342
 
     '''
     return s == s[::-1]
