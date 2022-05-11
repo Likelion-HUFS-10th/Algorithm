@@ -1,8 +1,7 @@
 '''
 양뱡향 순환 큐 ..?
-deque 모듈 사용 -> 구글 검색 찬스...
+deque 모듈 사용 -> 구글링 도움....
 deque 메서드 -> appendleft(), popleft(), rotate()..
-
 '''
 
 from collections import deque
@@ -20,7 +19,7 @@ for i in num:
             break
         else:
             if queue.index(i) <= len(queue) / 2:    
-                queue.rotate(-1)                    # rotate(입력값) -> 입력값 만큼 이동 -> 양수면 오른쪽 , 음수는 왼쪽으로 이동
+                queue.rotate(-1)                    # rotate(입력값) : 입력값 만큼 이동 -> 양수면 오른쪽우로 음수면 왼쪽으로 이동
                 cnt += 1 
             else:
                 queue.rotate()                       
