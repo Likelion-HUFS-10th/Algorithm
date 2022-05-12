@@ -13,6 +13,24 @@ logs = ["dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 ar
 ["let1 art can", "let3 art zero", "let2 own kit dig", "dig1 8 1 5 1", "dig2 3 6"]
 
 '''
+#0. 내 풀이
+logs = ["dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"]
+logs.sort(logs[0][1])
+print(logs)
+
+'''
+def reorderLog(logs: list) -> list:
+    let = []
+    num = []
+    for i in logs:
+        if i[2] == int:
+            num.append(i)
+        else:
+            let.append(i)
+    re_lst = let + num
+    re_lst.sort(re_lst[0][1])
+'''
+
 
 logs = ["dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"]
 def reorederLogFiles(logs: list) -> list:
