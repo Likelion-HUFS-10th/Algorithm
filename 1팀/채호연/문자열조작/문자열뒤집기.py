@@ -1,7 +1,4 @@
 #0. 내 풀이
-from tokenize import String
-
-
 def reverseString(s: str):
     s_lst = [i for i in s]
     s_lst_reversed = list(reversed(s_lst))
