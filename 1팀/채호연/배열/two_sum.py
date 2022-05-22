@@ -3,7 +3,7 @@
 #     indx = []
 #     for i in nums:
 #         if i < target:
-#             if target - i in nums and nums.index(i) != nums.index(target - i):
+#             if target - i in nums and nums.index(i) != nums.index(target - i): #i = target - i
 #                     indx.append(nums.index(i))
 #                     indx.append(nums.index(target - i))
                     
