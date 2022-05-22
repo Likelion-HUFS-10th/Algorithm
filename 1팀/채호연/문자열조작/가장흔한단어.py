@@ -10,6 +10,38 @@ banned = ["hit"]
 "ball"
 '''
 
+# def mostCommonWord(paragraph: str, banned : list) -> str:
+#     para_lst = paragraph.lower().split()
+#     para_redced = list(set(para_lst)).pop('hit')
+#     cnt = []
+#     for i in para_redced:
+#         word_cnt = para_lst.count(i)
+#         cnt.append(word_cnt)
+#     return para_redced[cnt.index(max(cnt))]
+import re
+paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
+banned = ["hit"]
+paragraph = paragraph.isalnum()
+para_lst = list(set(paragraph.lower().split(" ")))
+print(paragraph)
+
+# para_lst = list(set(paragraph.lower().split(" ")))
+# cnt = []
+# for i in para_lst:
+#     if i not in banned:
+#         each_cnt = 0
+
+
+#     else:
+#         continue
+# print(cnt)
+
+    
+    
+
+
+
+'''
 #1. 리스트 컴프리헨션, Counter 객체 사용
 import collections
 def mostCommonWord(self, paragraph: str, banned: list) -> str:
@@ -18,4 +50,5 @@ def mostCommonWord(self, paragraph: str, banned: list) -> str:
     counts = collections.Counter(words)
 
     return counts.most_common(1)[0][0]
+'''
 
