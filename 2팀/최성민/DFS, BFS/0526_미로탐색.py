@@ -3,24 +3,16 @@ import sys
 input = sys.stdin.readline
 
 n, m = map(int, input().split())
-graph = [[] for _ in range(n)]
-visited = [[False] * (m) for _ in range(n)]
-step = [([0] * m) for _ in range(n)]
+graph = []
 
 for i in range(n):
-	input_value = input().rstrip()
+	graph.append(list(input().rstrip()))
 
-	for j in input_value:
-		graph[i].append(int(j))
-
+step = [([0] * m) for _ in range(n)]
+visited = [([0] * m) for _ in range(n)]
 q = deque()
 
-def in_range(x, y):
-	return 0 <= x < m and 0 <= y < n
-
 def bfs():
-	global ans
-
 	dxs, dys = [1, -1, 0, 0], [0, 0, 1, -1]
 
 	while q:
@@ -29,9 +21,9 @@ def bfs():
 		for dx, dy in zip(dxs, dys):
 			nx, ny = x + dx, y + dy
 
-			if in_range(nx, ny) and graph[ny][nx] and not visited[ny][nx]:
+			if (0 <= nx < m) and (0 <= ny < n) and graph[ny][nx] == "1" and not visited[ny][nx]:
+				visited[ny][nx] = 1
 				q.append((nx, ny))
-				visited[ny][nx] = True
 				step[ny][nx] = step[y][x] + 1
 
 q.append((0, 0))
