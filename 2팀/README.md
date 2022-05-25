@@ -61,25 +61,42 @@
 </details>
 
 <details>
-<summary>4주차</summary>
+<summary>4주차 : 트리, 우선순위큐, 이진트리</summary>
 <div markdown="1">
   <ul>
+    <li><a href="https://www.acmicpc.net/problem/11725">트리의 부모 찾기</a></li> 
+    <li><a href="https://www.acmicpc.net/problem/14244">트리 만들기</a></li> 
+    <li><a href="https://www.acmicpc.net/problem/1966">프린터 큐</a></li>
+    <li><a href="https://www.acmicpc.net/problem/11286">절댓값 힙</a></li>
+    <li><a href="https://www.acmicpc.net/problem/9934">완전이진트리</a></li>
+    <li>같이 푼 문제 : <a href="https://www.acmicpc.net/problem/5639">완전 검색 트리</a></li>
+  </ul>
+  
+</div>
+</details>
+
+<details>
+<summary>5주차 : 그래프</summary>
+<div markdown="1">
+  <ul>
+    <li><a href="https://www.acmicpc.net/problem/3182">한동이는 공부가 하기 싫어!</a></li> 
+    <li><a href="https://www.acmicpc.net/problem/1260">DFS와 BFS</a></li> 
+    <li><a href="https://www.acmicpc.net/problem/2644">촌수계산</a></li>
+    <li><a href="https://www.acmicpc.net/problem/9372">상근이의 여행</a></li>
+    <li>같이 푼 문제 : <a href="https://www.acmicpc.net/problem/11657">타임머신</a></li>
   </ul>
 </div>
 </details>
 
 <details>
-<summary>5주차</summary>
+<summary>6주차 : DFS / BFS</summary>
 <div markdown="1">
   <ul>
-  </ul>
-</div>
-</details>
-
-<details>
-<summary>6주차</summary>
-<div markdown="1">
-  <ul>
+    <li><a href="https://programmers.co.kr/learn/courses/30/lessons/43165">타겟넘버</a></li> 
+    <li><a href="https://www.acmicpc.net/problem/2583">영역 구하기</a></li> 
+    <li><a href="https://www.acmicpc.net/problem/2178">미로 탐색</a></li>
+    <li><a href="https://www.acmicpc.net/problem/2606">바이러스</a></li>
+    <li>같이 푼 문제 : <a href="https://programmers.co.kr/learn/courses/30/lessons/43164">여행경로</a></li>
   </ul>
 </div>
 </details>
