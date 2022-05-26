@@ -1,12 +1,13 @@
-import queue
 import sys
 from collections import deque
+
 input = sys.stdin.readline
 m, n, k = tuple(map(int, input().split()))
 array = [[0 for _ in range(n)] for _ in range(m) ]
 dx = [0, 0, -1, 1]
 dy = [-1, 1, 0, 0]
 answer = []
+
 for _ in range(k):
     x1, y1, x2, y2 = tuple(map(int, input().split()))
     for i in range(x1, x2):
