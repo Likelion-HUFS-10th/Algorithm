@@ -6,7 +6,7 @@ class ListNode:
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         q = []
-        if not head:
+        if not head: # 도대체 이 부분은 무엇을 의미하는 지 정중히 질문 드려보기.
             return True
         node = head
         
