@@ -5,7 +5,7 @@ class Node:
         self.next = next
 
 #2. Node 생성해보기
-node1 = Node(1)
+node1 = Node(1) 
 
 #3. Node의 값, 포인터 출력하기
 print(node1.data)
@@ -37,3 +37,4 @@ head = node1
 add(3)
 print(node1)
 print(node1.next.data)
+
