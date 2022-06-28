@@ -102,17 +102,37 @@
 </details>
 
 <details>
-<summary>7주차</summary>
+<summary>7주차 : DP (동적계획법) </summary>
 <div markdown="1">
   <ul>
+    <li><a href="https://www.acmicpc.net/problem/2839">설탕배달</a></li>
+    <li><a href="https://www.acmicpc.net/problem/1003">피보나치</a></li>
+    <li><a href="https://www.acmicpc.net/problem/11053">가장 긴 증가하는 부분 수열</a></li>
+    <li><a href="https://www.acmicpc.net/problem/2579">계단 오르기</a></li>
+    <li>같이 푼 문제 : <a href="https://www.acmicpc.net/problem/1520">내리막길</a></li>
   </ul>
 </div>
 </details>
 
 <details>
-<summary>8주차</summary>
+<summary>7.5주차 : 같이 푼 문제 </summary>
+<div markdown="1">
+  6/23
+  <ul>
+    <li><a href="https://www.acmicpc.net/problem/1695">팰린드롬</a></li>
+  </ul>
+</div>
+</details>
+
+<details>
+<summary>8주차 : 백트래킹</summary>
 <div markdown="1">
   <ul>
+    <li><a href="https://www.acmicpc.net/problem/9742">순열</a></li>
+    <li><a href="https://www.acmicpc.net/problem/16922">로마 숫자 만들기</a></li>
+    <li><a href="https://www.acmicpc.net/problem/15649">N과 M (1)</a></li>
+    <li><a href="https://www.acmicpc.net/problem/18429">근손실</a></li>
+    <li>같이 푼 문제 : <a href="https://www.acmicpc.net/problem/9663">N-Queen</a></li>
   </ul>
 </div>
 </details>
