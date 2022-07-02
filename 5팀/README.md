@@ -70,7 +70,7 @@
 </details>
 
 <details>
-<summary>5월 27일 토요일</summary>
+<summary>5월 27일 금요일</summary>
 <div markdown="1">
   <ul>
     <li>[파이썬 알고리즈 인터뷰] 10장 데크, 우선 순위 큐</li>
