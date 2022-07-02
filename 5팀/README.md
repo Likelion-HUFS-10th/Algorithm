@@ -5,7 +5,7 @@
 - [이가은](https://github.com/lgaeun7)
 - [이현제](https://github.com/leehjhjhj)
 
-### `4월 9일 토요일 스터디`
+`4월 9일 토요일 스터디`
 - <a href="https://www.acmicpc.net/problem/8958">OX퀴즈</a>
 - <a href="https://www.acmicpc.net/problem/1193">분수찾기</a>
 - <a href="https://www.acmicpc.net/problem/1966">프린터 큐</a>
