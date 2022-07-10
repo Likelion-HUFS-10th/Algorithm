@@ -92,3 +92,15 @@
   </ul>
 </div>
 </details>
+
+<details>
+<summary>7월 9일 토요일</summary>
+<div markdown="1">
+  <ul>
+    <li>[파이썬 알고리즈 인터뷰] 12장 그래프</li>
+    <li><a href="https://www.acmicpc.net/problem/11403">경로 찾기</a></li>
+    <li><a href="https://www.acmicpc.net/problem/9205">맥주 마시면서 걸어가기</a></li>
+    <li><a href="https://www.acmicpc.net/problem/13414">수강신청</a></li>
+  </ul>
+</div>
+</details>
