@@ -1,1 +1,37 @@
+import sys, math
+from collections import deque
+sys.stdin = open("input.txt", "r")
 
+def bfs(x,y):
+    global store, festival_x, festival_y
+    queue = deque()
+    queue.append((x,y))
+    visited = []
+    while queue:
+        x = queue[0][0]
+        y = queue[0][1]
+        visited.append((x,y))
+        if x = festival_x and y = festival_y:
+           print("happy")
+           return
+        queue.popleft()
+
+        for pos in store:
+            dist = abs(x-pos[0]) + abs(y-pos[1])
+            if 1000 >= dist and pos not in visited:
+
+                 queue.append((pos[0], pos[1]))
+                 visited.append((pos[0], pos[1]))
+     print("sad")
+
+for _ in range(int(input())):
+    n = int(input())
+    sang_x, sang_y = map(int,input().split())
+    store = []
+    for _ in range(n):
+        store_x, store_y = map(int, input().split())
+        store.append((store_x, store_y))
+    festival_x, festival_y = map(int, input().split())
+    store.append((festival_x, festival_y))
+    
+    bfs(sang_x, sang_y)
