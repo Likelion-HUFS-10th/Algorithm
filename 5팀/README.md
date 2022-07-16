@@ -104,6 +104,8 @@
   </ul>
 </div>
 </details>
+
+<details>
 <summary>7월 16일 토요일</summary>
 <div markdown="1">
   <ul>
