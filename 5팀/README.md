@@ -110,9 +110,20 @@
 <div markdown="1">
   <ul>
     <li>[파이썬 알고리즈 인터뷰] 12장 그래프</li>
-    <li>CodeTree-안전 지대 </li>
+    <li>CodeTree-안전 지대</li>
     <li>CodeTree-돌 잘 치우기</li>
     <li><a href="https://www.acmicpc.net/problem/2512">boj-예산</a></li>
+  </ul>
+</div>
+</details>
+
+<details>
+<summary>7월 21일 목요일</summary>
+<div markdown="1">
+  <ul>
+    <li>[파이썬 알고리즈 인터뷰] 18장 이분탐색</li>
+    <li><a href="https://www.acmicpc.net/problem/17451">boj-평행 우주</a></li>
+    <li><a href="https://www.acmicpc.net/problem/14620">boj-꽃길</a></li>
   </ul>
 </div>
 </details>
