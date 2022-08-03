@@ -127,3 +127,15 @@
   </ul>
 </div>
 </details>
+
+<details>
+<summary>8월 3일 수요일</summary>
+<div markdown="1">
+  <ul>
+    <li>[파이썬 알고리즈 인터뷰] 18장 이분탐색</li>
+    <li><a href="https://www.acmicpc.net/problem/2210">boj-숫자판 점프</a></li>
+    <li><a href="https://www.acmicpc.net/problem/3048">boj-개미</a></li>
+    <li><a href="https://www.acmicpc.net/problem/11048">boj-이동하기</a></li>
+  </ul>
+</div>
+</details>
