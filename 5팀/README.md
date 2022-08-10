@@ -139,3 +139,15 @@
   </ul>
 </div>
 </details>
+
+<details>
+<summary>8월 10일 수요일</summary>
+<div markdown="1">
+  <ul>
+    <li><a href="https://www.acmicpc.net/problem/15685">boj-드래곤 커브</a></li>
+    <li><a href="https://www.acmicpc.net/problem/2156">boj-포도주 시식</a></li>
+    <li><a href="https://www.acmicpc.net/problem/2579">boj-계단 오르기</a></li>
+    <li><a href="https://www.acmicpc.net/problem/5566">boj-주사위 게임</a></li>
+  </ul>
+</div>
+</details>
