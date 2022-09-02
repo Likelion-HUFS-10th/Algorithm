@@ -151,3 +151,14 @@
   </ul>
 </div>
 </details>
+
+<details>
+<summary>8월 29일 월요일</summary>
+<div markdown="1">
+  <ul>
+    <li><a href="https://www.acmicpc.net/problem/11060">boj-점프 점프</a></li>
+    <li><a href="https://www.acmicpc.net/problem/10026">boj-적록색약</a></li>
+    <li><a href="https://www.acmicpc.net/problem/14501">boj-퇴사</a></li>
+  </ul>
+</div>
+</details>
