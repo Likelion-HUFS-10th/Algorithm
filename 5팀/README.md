@@ -162,3 +162,13 @@
   </ul>
 </div>
 </details>
+
+<details>
+<summary>9월 5일 월요일</summary>
+<div markdown="1">
+  <ul>
+    <li><a href="https://www.acmicpc.net/problem/15486">boj-퇴사 2</a></li>
+    <li><a href="https://www.acmicpc.net/problem/3085">boj-사탕 게임</a></li>
+  </ul>
+</div>
+</details>
