@@ -1,4 +1,5 @@
 # 신입 사원
+
 T = int(input())
 for _ in range(T):
     applica = int(input())
@@ -13,6 +14,3 @@ for _ in range(T):
             result += 1
 
     print(result)
-
-
-
